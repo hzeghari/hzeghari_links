@@ -5,7 +5,16 @@ import Link from 'next/link'
 export default function Links() {
     var SocialMedias = [
         {
-            id:1,
+            id:2,
+            name: "linkedin",
+            nameText: "LinkedIn",
+            nameIcon:"linkedin",
+            assetsImage: "https://www.linkedin.com",
+            linkAccount: "https://www.linkedin.com/in/hzeghari/"
+
+        },
+        {
+            id:2,
             name: "github",
             nameText: "Github",
             nameIcon:"github",
@@ -14,7 +23,7 @@ export default function Links() {
 
         },
         {
-            id:2,
+            id:3,
             name: "foundation",
             nameText: "Foundation - NFT",
             nameIcon:"www",
@@ -23,7 +32,7 @@ export default function Links() {
 
         },
         {
-            id:3,
+            id:4,
             name: "instagram",
             nameText: "Instagram",
             nameIcon:"instagram",
