@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/client": "^3.4.15",
-    "daisyui": "^1.14.2",
-    "graphql": "^15.6.0",
+    "@apollo/client": "^3.4.16",
+    "daisyui": "^1.16.0",
+    "graphql": "^15.6.1",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-animated-social-icons": "^1.1.0",
@@ -20,10 +20,10 @@
   "devDependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/styled": "^11.3.0",
-    "autoprefixer": "^10.3.6",
-    "eslint": "7.32.0",
+    "autoprefixer": "^10.3.7",
+    "eslint": "8.1.0",
     "eslint-config-next": "11.1.2",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.16"
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
   }
 }
