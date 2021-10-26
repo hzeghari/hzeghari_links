@@ -22,7 +22,7 @@ export default function TopCard(props) {
             <div className="w-full flex flex-col items-center pt-10">
                 <div className="avatar">
                     <div className="mb-8 w-24 h-24 mask mask-squircle ">
-                        <img role="img" src={ShowProfile.avatarUrl} alt="avatar"/>
+                        <img role="img" src={ShowProfile.avatarUrl} alt="Hamza Zeghari"/>
                     </div>
                 </div>
                 {/* <div className="avatar online w-24 h-24 mb-3 p-0.5 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">

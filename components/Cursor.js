@@ -8,7 +8,7 @@ export default function CustomCursor() {
         document.addEventListener('mousemove', e => {
             if (cursorRef.current == null)
                 return;
-            cursorRef.current.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX) + "px;")
+            cursorRef.current.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX) + "px;");
         });
         document.addEventListener('click', () => {
             if (cursorRef.current == null)
