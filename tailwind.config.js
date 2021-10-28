@@ -9,7 +9,10 @@ module.exports = {
       colors: {
         'hamza': '#0A192F',
         'hb15': '#151515',
-        'text-w': '#FFFFFF'
+        'text-w': '#FFFFFF',
+        'text-gr1': '#faf7ff',
+        'text-location': '#65fbd2',
+        'text-location-hover': '#005a34'
       }
     },
   },

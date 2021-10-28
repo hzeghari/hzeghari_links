@@ -19,7 +19,7 @@ export default function TopCard(props) {
 
 
 
-            <div className="w-full flex flex-col items-center pt-10">
+            <div className="w-full flex flex-col items-center pt-2">
                 <div className="avatar">
                     <div className="mb-8 w-24 h-24 mask mask-squircle ">
                         <img role="img" src={ShowProfile.avatarUrl} alt="Hamza Zeghari"/>
@@ -33,7 +33,9 @@ export default function TopCard(props) {
                     <h2 className=" text-2xl tracking-normal font-extrabold mb-1">{ShowProfile.name}</h2>
                 </a>
 
-                <a tabIndex="0" className="cursor-pointer hover:text-indigo-700 focus:underline focus:outline-none focus:text-indigo-700 flex text-gray-600 dark:text-gray-100 text-sm tracking-normal font-normal mb-3 text-center">
+                <p className="text-text-gr1 dark:text-gray-100 text-base tracking-normal font-semibold mb-2 text-center w-10/12">{ShowProfile.bio}</p>
+
+                <a tabIndex="0" className="cursor-pointer hover:text-text-location-hover focus:underline focus:outline-none focus:text-indigo-700 flex text-text-location dark:text-gray-100 text-sm tracking-normal font-medium mb-3 text-center">
                     <span className="cursor-pointer mr-1 text-gray-600 dark:text-gray-100">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-map-pin" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z"></path>
@@ -43,7 +45,7 @@ export default function TopCard(props) {
                     </span>
                     {ShowProfile.location}, Morocco
                 </a>
-                <p className="text-gray-600 dark:text-gray-100 text-sm tracking-normal font-normal mb-8 text-center w-10/12">{ShowProfile.bio}</p>
+                
 
             </div>
 
