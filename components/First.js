@@ -6,7 +6,7 @@ import TestTop from './TestTop'
 export default function First(props) {
     const EntryProfile = props.profile;
     return (
-      <div className="flex flex-wrap overflow-hidden bg-mains bg-cover">
+      <div className="flex flex-wrap overflow-hidden bg-mains-phone bg-cover sm:bg-mains sm:bg-cover">
 
         <div className="w-1/5 overflow-hidden">
           {/* <div className="max-w-full max-h-screen bg-blue-300">

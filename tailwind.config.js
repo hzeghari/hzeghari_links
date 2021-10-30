@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'mains': "url('/Desktop.jpg')",
+        'mains-phone': "url('/iPhone.jpg')",
       }),
       colors: {
         'hamza': '#0A192F',

@@ -29,7 +29,7 @@ export default function TopCard(props) {
                     <img role="img" className="w-full h-full overflow-hidden object-cover rounded-full" src={ShowProfile.avatarUrl} alt="avatar" />
                 </div> */}
 
-                <a tabIndex="0" className="focus:outline-none focus:opacity-75 hover:opacity-75 text-text-w dark:text-gray-100 cursor-pointer focus:underline">
+                <a tabIndex="0" className="focus:outline-none focus:opacity-75 hover:opacity-75  text-green-900 sm:text-text-w dark:text-gray-100 cursor-pointer focus:underline">
                     <h2 className=" text-2xl tracking-normal font-extrabold mb-1">{ShowProfile.name}</h2>
                 </a>
 
