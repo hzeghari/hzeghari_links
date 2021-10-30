@@ -1,7 +1,7 @@
 import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
-
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 import First from '../components/First'
 import CustomCursor from '../components/Cursor'
 import {
