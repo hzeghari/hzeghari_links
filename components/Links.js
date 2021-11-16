@@ -33,6 +33,15 @@ export default function Links() {
         },
         {
             id:4,
+            name: "opensea",
+            nameText: "Opensea - NFT",
+            nameIcon:"www",
+            assetsImage: "https://opensea.io",
+            linkAccount: "https://opensea.io/the_fortyseven"
+
+        },
+        {
+            id:5,
             name: "instagram",
             nameText: "Instagram",
             nameIcon:"instagram",
