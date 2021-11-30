@@ -63,7 +63,7 @@ export default function Links() {
                 SocialMedias.map ( (account,index) => (
                     <Link key={index} aria-label={account.nameText} href={account.linkAccount} passHref={true}>
                         <a className="w-80" target="_blank" aria-label={account.nameText}>
-                            <button className="containerBTN bg-white h-12 w-full px-4 py-2 font-semibold text-black flex justify-center justify-items-center items-center rounded">
+                            <button className="containerBTN bg-white h-12 w-full px-4 py-2 font-semibold text-black flex justify-center justify-items-center items-center rounded" aria-label={account.nameText}>
                                 <AnimatedSocialIcon
                                     className="mr-auto"
                                     brandName={account.nameIcon}
