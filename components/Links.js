@@ -72,6 +72,7 @@ export default function Links() {
                                     // hoverColor="acff9e"
                                     width="2em"
                                     animationDuration={0.8}
+                                    aria-label={account.nameText}
 
                                 />
                                 <span className="mr-auto">{account.nameText}</span>
