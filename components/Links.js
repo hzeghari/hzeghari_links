@@ -61,7 +61,7 @@ export default function Links() {
             <div className=" flex flex-col items-center space-y-6 overflow-hidden">
             {
                 SocialMedias.map ( (account,index) => (
-                    <Link key={index} href={account.linkAccount} passHref={true}>
+                    <Link key={index} aria-label={account.nameText} href={account.linkAccount} passHref={true}>
                         <a className="w-80" target="_blank">
                             <button className="containerBTN bg-white h-12 w-full px-4 py-2 font-semibold text-black flex justify-center justify-items-center items-center rounded">
                                 <AnimatedSocialIcon

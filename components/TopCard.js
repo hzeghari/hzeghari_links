@@ -1,12 +1,5 @@
 import React from 'react'
 
-// import {
-//     ApolloClient,
-//     InMemoryCache,
-//     gql,
-//     createHttpLink
-//   } from "@apollo/client";
-// import { setContext } from '@apollo/client/link/context';
 
 export default function TopCard(props) {
     // console.log(profile);
@@ -54,51 +47,3 @@ export default function TopCard(props) {
 
     )
 }
-
-// export async function getStaticProps() {
-
-//     const httpLink = createHttpLink({
-//         uri: 'https://api.github.com/graphql',
-//     });
-
-//     const authLink = setContext((_, { headers }) => {
-//         // // get the authentication token from local storage if it exists
-//         // const token = localStorage.getItem('token');
-//         // // return the headers to the context so httpLink can read them
-//         return {
-//             headers: {
-//                 ...headers,
-//                 authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
-//             }
-//         }
-//     });
-
-//     const client = new ApolloClient({
-//         link: authLink.concat(httpLink),
-//         cache: new InMemoryCache()
-//     });
-
-//     const { data } = await client.query({
-//         query: gql`
-//               {   
-//                 user(login: "hzeghari") {
-//                   bio
-//                   avatarUrl
-//                   login
-//                   name
-//                 }
-//               }`
-//     })
-
-//     const { user } = data;
-//     const profile = user.name;
-
-//     console.log(profile);
-
-//     return {
-//         props: {
-//             profile
-//         }
-//     }
-// }
-  
